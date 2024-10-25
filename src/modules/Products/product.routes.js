@@ -48,7 +48,7 @@ router.get(
 
 router.get(
   "/getProduct",
-  auth(endPointsRoles.GET_PRODUCTS),
+  // auth(endPointsRoles.GET_PRODUCTS),
   expressAsyncHandler(productController.getProducts)
 );
 
